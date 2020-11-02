@@ -30,7 +30,6 @@ def btncmd():
    print(buger_var.get()) # 햄버거 중 선택된 라디오 항목의 값(value)을 출력
    print(drink_var.get()) # 음료 중 선택된 값을 출력
 
-
 btn = Button(root, text="주문", command=btncmd)
 btn.pack()
 
